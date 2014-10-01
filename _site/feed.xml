@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Oct 2014 18:00:00 +0700</pubDate>
-    <lastBuildDate>Wed, 01 Oct 2014 18:00:00 +0700</lastBuildDate>
+    <pubDate>Wed, 01 Oct 2014 18:12:07 +0700</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2014 18:12:07 +0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -35,6 +35,92 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Test First Page in Jekyll</title>
+        <description>&lt;p&gt;Ini merupakan post pertama saya menggunakan Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Berikut merupakan contoh syntax jQuery:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; 	&lt;span class=&quot;c1&quot;&gt;// Put your code here&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt; using HTML5 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Saat ini saya sedang belajar menggunakan jQuery, semoga cepat mengerti dan menguasainya. More information about jQuery, check » &lt;a href=&quot;http://luxurygalaxy.blogspot.com/&quot;&gt; Luxury Galaxy&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 May 2014 03:53:55 +0700</pubDate>
+        <link>http://yourdomain.com/first-test/</link>
+        <guid isPermaLink="true">http://yourdomain.com/first-test/</guid>
+        
+        <category>jekyll,</category>
+        
+        <category>jquery,</category>
+        
+        <category>html5</category>
+        
+        
+        <category>test-page</category>
+        
+      </item>
+    
+      <item>
+        <title>Trying to install StarUML on Wine</title>
+        <description>&lt;p&gt;Problem :
+Trying to install StarUML&lt;/p&gt;
+
+&lt;p&gt;C:\Program Files\StarUML\Pgmr101.ocx
+&amp;gt; |
+&amp;gt; | Unable to register the DLL/OCX: LoadLibrary failed; code 126.
+&amp;gt; | Module not found.&lt;/p&gt;
+
+&lt;p&gt;Solution:
+wget http://kegel.com/wine/winetricks
+sh winetricks vcrun6 msxml4&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 08 May 2014 03:35:55 +0700</pubDate>
+        <link>http://yourdomain.com/wine/staruml/oop/development/2014/05/08/trying-to-install-staruml-on-wine.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/wine/staruml/oop/development/2014/05/08/trying-to-install-staruml-on-wine.html</guid>
+        
+        
+        <category>wine</category>
+        
+        <category>staruml</category>
+        
+        <category>oop</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>How to start mysql server : Failed to issue method call: No such file or directory</title>
+        <description>&lt;p&gt;Problem :
+cannot start mysql server on Fedora / Unable to start mysql on startup with the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;systemctl&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;enable&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mysqld&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Solution:
+systemctl enable mariadb.service&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 08 May 2014 03:35:55 +0700</pubDate>
+        <link>http://yourdomain.com/mysql/mariadb/fedora/database/2014/05/08/how-to-start-mysql-on-fedora-20.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/mysql/mariadb/fedora/database/2014/05/08/how-to-start-mysql-on-fedora-20.html</guid>
+        
+        
+        <category>mysql</category>
+        
+        <category>mariadb</category>
+        
+        <category>fedora</category>
+        
+        <category>database</category>
         
       </item>
     

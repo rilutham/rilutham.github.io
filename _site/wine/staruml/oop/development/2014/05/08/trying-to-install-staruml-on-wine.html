@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Your awesome title</title>
+    <title>Trying to install StarUML on Wine</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://yourdomain.com/">
+    <link rel="canonical" href="http://yourdomain.com/wine/staruml/oop/development/2014/05/08/trying-to-install-staruml-on-wine.html">
 </head>
 
 
@@ -54,47 +54,28 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Trying to install StarUML on Wine</h1>
+    <p class="post-meta">May 8, 2014</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 2, 2014</span>
+  <article class="post-content">
+    <p>Problem :
+Trying to install StarUML</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/10/02/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2014</span>
+<p>C:\Program Files\StarUML\Pgmr101.ocx
+&gt; |
+&gt; | Unable to register the DLL/OCX: LoadLibrary failed; code 126.
+&gt; | Module not found.</p>
 
-        <h2>
-          <a class="post-link" href="/first-test/">Test First Page in Jekyll</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2014</span>
+<p>Solution:
+wget http://kegel.com/wine/winetricks
+sh winetricks vcrun6 msxml4</p>
 
-        <h2>
-          <a class="post-link" href="/wine/staruml/oop/development/2014/05/08/trying-to-install-staruml-on-wine.html">Trying to install StarUML on Wine</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2014</span>
 
-        <h2>
-          <a class="post-link" href="/mysql/mariadb/fedora/database/2014/05/08/how-to-start-mysql-on-fedora-20.html">How to start mysql server : Failed to issue method call: No such file or directory</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
