@@ -7,7 +7,7 @@ categories: mysql mariaDB Fedora Database
 
 Problem :
 cannot start mysql server on Fedora / Unable to start mysql on startup with the following command:
-{% highlight javaScript %}
+{% highlight Bash shell scripts %}
 systemctl enable mysqld.service
 {% endhighlight %}
 
