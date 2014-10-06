@@ -3,11 +3,9 @@
 - title: About
   url: /about/
 
-- title: Sample Posts
+- title: All Post
   url: /posts/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Fedora
+  url: /categories/fedora/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
