@@ -2,7 +2,7 @@
 layout: post
 title:  "How to start mysql server : Failed to issue method call: No such file or directory"
 date:   2014-05-07 20:35:55
-categories: mysql mariaDB Fedora Database
+categories: database fedora
 ---
 
 Problem :
