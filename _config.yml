@@ -3,7 +3,7 @@
 title: Riky Lutfi Hamzah
 email: rlh_258@yahoo.co.id
 locale:           en_US
-url: / # the base hostname & protocol for your site
+url: "http://rikylutfihamzah.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Jekyll configuration
