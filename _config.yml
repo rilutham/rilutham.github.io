@@ -6,6 +6,8 @@ locale:           en_US
 url: "http://rikylutfihamzah.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
+google_analytics_id: UA-34568567-2
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
