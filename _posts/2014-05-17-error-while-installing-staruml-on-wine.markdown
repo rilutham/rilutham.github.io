@@ -17,12 +17,12 @@ C:\Program Files\StarUML\Pgmr101.ocx
 > | Module not found.
 {% endhighlight %}
 
-## How to Fix?
+### How to Fix?
 Open your favorite shell, install winetricks and some prerequisites packages :
 
-{% highlight bash %}
+{% highlight Bash shell scripts %}
 # wget http://kegel.com/wine/winetricks
 # sh winetricks vcrun6 msxml4
 {% endhighlight %}
 
-Congratulation and enjoy your UML modeling job :)
+Enjoy your experience with starUML :)
