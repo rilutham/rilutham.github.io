@@ -6,9 +6,10 @@ categories: wine starUML OOP Development
 excerpt: "A tips to fix error while installing StarUML on Wine."
 ---
 
-<a href="http://staruml.io/">StarUML</a> is a powerful open source UML modeling tool. Unfortunately, it is only available for Mac OS and Windows. But it's not a big deal for me and all Linux users around the world. Thanks to Wine which allow applications designed for Windows to run on Unix-like OS.
+[StarUML](http://staruml.io/) is a powerful open source UML modeling tool. Unfortunately, it is only available for Mac OS and Windows. But it's not a big deal for me and all Linux users around the world. Thanks to <a href="https://www.winehq.org/" target="_blank">Wine which allow applications designed for Windows to run on Unix-like OS. 
 
-This evening, i tried to install StarUML on Wine (on my Fedora 20 machine) and found the following error:
+### Problem
+This evening, i tried to install StarUML on Wine (on my <a href="http://fedoraproject.org/" target="_blank">Fedora 20 machine) and found the following error:
 
 {% highlight bat %}
 C:\Program Files\StarUML\Pgmr101.ocx
@@ -20,9 +21,9 @@ C:\Program Files\StarUML\Pgmr101.ocx
 ### How to Fix?
 Open your favorite shell, install winetricks and some wine prerequisites packages :
 
-{% highlight Bash shell scripts %}
+{% highlight bash %}
 # wget http://kegel.com/wine/winetricks
 # sh winetricks vcrun6 msxml4
 {% endhighlight %}
 
-Hope this helps :)
+Hope this helps :) 
