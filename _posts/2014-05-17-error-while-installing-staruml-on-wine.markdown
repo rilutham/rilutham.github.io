@@ -3,10 +3,12 @@ layout: post
 title: Error While Installing StarUML on Wine
 date: 2014-05-07 20:35:55
 categories: wine starUML OOP Development
+excerpt: "A tips to fix error while installing StarUML on Wine."
 ---
 
-Problem :
-Trying to install StarUML
+StarUML is a powerful open source UML modeling tool. Unfortunately, it is only available for Mac OS and Windows. But it's not a big deal for me and all Linux users around the world. Thanks to Wine which allow applications designed for Windows to run on Unix-like OS.
+
+This evening, i tried to install StarUML on Wine in my Fedora 20 machine and founded the following error:
 
 {% highlight bash %}
 C:\Program Files\StarUML\Pgmr101.ocx
