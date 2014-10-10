@@ -7,3 +7,6 @@
     filter: FlipH;
     -ms-filter: "FlipH";
 }
+#schema {
+	display: none;
+}
