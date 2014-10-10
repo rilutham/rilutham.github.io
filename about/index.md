@@ -12,7 +12,11 @@ $ whoami
 <div itemscope itemtype="http://data-vocabulary.org/Person">
 <span itemprop="name">Riky Lutfi Hamzah</span>
 
-<span itemprop="address">Bandung</span>
+<span itemprop="address" itemscope
+    itemtype="http://data-vocabulary.org/Address">
+    <span itemprop="locality">Bandung</span>, 
+    <span itemprop="region">WJ</span> 
+  </span>
 
 
 <span itemprop="role">Software Engineer</span>
