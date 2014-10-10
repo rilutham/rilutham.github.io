@@ -9,6 +9,13 @@
 	<img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ site.title }}">
 {% endif %}
 <h3><span itemprop="name">{{ author.name }}</span></h3>
+<p>
+<span itemprop="address" itemscope
+    itemtype="http://data-vocabulary.org/Address">
+    <span itemprop="locality">Bandung</span>, 
+    <span itemprop="country-name">Indonesia</span> 
+  </span>
+</p>
 <p><span itemprop="title">{{ author.bio }}</span></p>
 {% if author.email %}<a href="mailto:{{ author.email }}" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>{% endif %}
 {% if author.linkedin %}<a href="http://linkedin.com/in/{{ author.linkedin }}" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>{% endif %}
