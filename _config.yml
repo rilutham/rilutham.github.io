@@ -1,7 +1,7 @@
 # Site Wide configuration
 
 title: Riky Lutfi Hamzah
-email: 
+email: rilutham@gmail.com
 locale: en_US
 url: "http://rikylutfihamzah.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -29,7 +29,7 @@ owner:
   name: '@rilutham'
   avatar: riky-lutfi-hamzah-ava.jpg
   bio: "Convey to the people even if it were a single sentence. (Sahih al-Bukhari 3461)"
-  email: rilutham@gmail.com
+  email: 
   disqus-shortname: 
   twitter: rilutham
   facebook: #username
