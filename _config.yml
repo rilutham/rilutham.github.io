@@ -1,8 +1,8 @@
-# Site wide configuration
+# Site Wide configuration
 
 title: Riky Lutfi Hamzah
-email: rlh_258@yahoo.co.id
-locale:           en_US
+email: 
+locale: en_US
 url: "http://rikylutfihamzah.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
@@ -16,7 +16,6 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -24,13 +23,13 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-
 # Site owner
+
 owner:
   name: '@rilutham'
   avatar: riky-lutfi-hamzah-ava.jpg
-  bio: "Software Engineer."
-  email: 
+  bio: "Convey to the people even if it were a single sentence. (Sahih al-Bukhari 3461)"
+  email: rilutham@gmail.com
   disqus-shortname: 
   twitter: rilutham
   facebook: #username
