@@ -44,10 +44,7 @@
       {{ content }}
       <hr />
       <footer role="contentinfo">
-        <div class="article-author-bottom">
-          {% include _author-bio.html %}
-        </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.
       </footer>
     </div><!-- /.article-wrap -->
   {% if site.owner.disqus-shortname and page.comments == true %}
@@ -60,7 +57,7 @@
   <div class="related-articles">
   <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
     <ul>
-    {% for post in site.related_posts limit:3 %}
+    {% for post in site.related_posts limit:5 %}
       <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
