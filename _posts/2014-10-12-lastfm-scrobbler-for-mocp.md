@@ -44,6 +44,11 @@ $ python3 -d /usr/bin/mocp-scrobbler.py
 
 Now, run MOC on other Terminal/ Shell, play a music and the Scrobbler works.
 
+<figure>
+	<a href="http://www.last.fm/user/rilutham"><img src="/images/posts/mocp-scrobbler.jpg"></a>
+	<figcaption>"Now Playing" notification on Last.fm profile.</figcaption>
+</figure>
+
 ### How to Start Scrobbler with MOC?
 If you want to start Scrobbler automatically when MOC is running, you can make a simple custom alias.
 
