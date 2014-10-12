@@ -53,7 +53,7 @@ $ nano ~/.bashrc
 
 ...
 ## alias for last.fm scrobbler on moc
-alias mocp='python3 -d /usr/bin/mocp-scrobbler.py; mocp'
+alias mocp='python3 /usr/bin/mocp-scrobbler.py -d; mocp'
 {% endhighlight %}
 
 * Run the following command
