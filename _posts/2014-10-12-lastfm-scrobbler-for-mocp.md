@@ -45,7 +45,7 @@ $ python3 -d /usr/bin/mocp-scrobbler.py
 Now, run MOC on other Terminal/ Shell, play a music and the Scrobbler works.
 
 <figure>
-	<a href="http://www.last.fm/user/rilutham"><img src="/images/posts/mocp-scrobbler.jpg"></a>
+	<a href="http://www.last.fm/user/rilutham"><img src="/images/posts/mocp-scrobbler.jpg" alt="mocp scrobbler"></a>
 	<figcaption>"Now Playing" notification on Last.fm profile.</figcaption>
 </figure>
 
