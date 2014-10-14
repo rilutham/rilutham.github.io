@@ -48,7 +48,6 @@ owner:
   tumblr: #username
   pinterest: #username
   foursquare: #username
-  steam: #username
   dribbble: #username
 
 include: [".htaccess"]
