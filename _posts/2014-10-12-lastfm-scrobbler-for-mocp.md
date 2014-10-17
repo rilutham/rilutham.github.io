@@ -4,7 +4,8 @@ title: Last.fm Scrobbler for MOC
 date: 2014-10-12 17:57:00
 categories: multimedia tool
 excerpt: "Instructions on how to set up Last.fm scrobbler on MOC player."
-tags: [moc, mocp, scrobbler, last.fm, scrobble for mocp, rhythmbox, nightingale, python3, ]
+tags: [moc, mocp, scrobbler, last.fm, scrobble for mocp, rhythmbox, nightingale, python3]
+comments: true
 ---
 
 Are you a big fan of **[MOC](http://moc.daper.net/)**? - So do I. MOC (music on console) is a console audio player for Linux/ UNIX. Some people are always calling it **`mocp`** which is actually it's binary file name. Like other audio players such as *Rhythmbox* and *Nightingale*, MOC can also scrobbled playing track information to your [Last.fm](http://www.last.fm/) account. Here are an instructions to set up Last.fm scrobbler for MOC :
