@@ -2,9 +2,10 @@
 layout: post
 title: Error While Installing StarUML on Wine
 date: 2014-05-07 20:35:55
+modified: 2014-10-08
 categories: oop tool
-excerpt: "A tips to fix error while installing StarUML on Wine."
 tags: [StarUML, Wine, ArgoUML, starUML on Wine, Wine on Fedora 20, DLL/OCX, kegel, winetricks, vcrun6, msxml4]
+excerpt: "A tips to fix error while installing StarUML on Wine."
 comments: true
 ---
 
