@@ -2,7 +2,7 @@
 layout: post
 title: Last.fm Scrobbler for MOC
 date: 2014-10-12 17:57:00
-categories: multimedia tool
+categories: multimedia tool fedora
 excerpt: "Instructions on how to set up Last.fm scrobbler on MOC player."
 tags: [moc, mocp, scrobbler, last.fm, scrobble for mocp, rhythmbox, nightingale, python3]
 comments: true
