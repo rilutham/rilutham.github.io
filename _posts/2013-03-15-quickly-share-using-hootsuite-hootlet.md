@@ -19,4 +19,4 @@ You should already have [HootSuite](https://hootsuite.com/) account to use Hootl
 {: .notice}
 
 
-Click the Title to go to the post!
+> Click the Title to go to the post!
