@@ -13,23 +13,23 @@ I can't says anything more about Telegram, that was absolutely amazing. It is a 
 * Download Telegram for Linux [here](https://tdesktop.com/) (32 bit or 64 bit depends on your machine).
 * Extract file to `/opt` directory.
 
-	{% raw %}
-	$ sudo tar xvf tsetup.0.6.4.tar.xz -C /opt
-	{% endraw %}
+{% highlight %}
+$ sudo tar xvf tsetup.0.6.4.tar.xz -C /opt
+{% endhighlight %}
 
 ### Create executable file
 
-	{% raw %}
-	$ sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
-	{% endraw %}
+{% highlight %}
+$ sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
+{% endhighlight %}
 
 ### Create menu shortcut
 
 * Download Telegram icon.
 
-	{% raw %}
-	$ sudo wget https://telegram.org/img/t_logo.png -O /opt/Telegram/icon.png
-	{% endraw %}
+{% highlight %}
+$ sudo wget https://telegram.org/img/t_logo.png -O /opt/Telegram/icon.png
+{% endhighlight %}
 
 * Add the following script to `/usr/share/applications/telegram.desktop` file.
 
