@@ -13,13 +13,13 @@ I can't says anything more about Telegram, that was absolutely amazing. It is a 
 * Download Telegram for Linux [here](https://tdesktop.com/) (32 bit or 64 bit depends on your machine).
 * Extract file to `/opt` directory.
 
-{% highlight %}
+{% highlight bash %}
 $ sudo tar xvf tsetup.0.6.4.tar.xz -C /opt
 {% endhighlight %}
 
 ### Create executable file
 
-{% highlight %}
+{% highlight bash %}
 $ sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
 {% endhighlight %}
 
@@ -27,7 +27,7 @@ $ sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
 
 * Download Telegram icon.
 
-{% highlight %}
+{% highlight bash %}
 $ sudo wget https://telegram.org/img/t_logo.png -O /opt/Telegram/icon.png
 {% endhighlight %}
 
