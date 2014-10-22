@@ -9,6 +9,7 @@ share: true
 ---
 
 Do you like to share interesting content with your friends? And you want to make it easier and faster? You might need **HootSuite Hootlet** to make it happen. This post covers a few things such as:
+
 * What is HootSuite Hootlet?
 * Advantages of Using Hootlet
 * Set up HootSuite Hootlet on Browser
@@ -16,5 +17,6 @@ Do you like to share interesting content with your friends? And you want to make
 
 You should already have [HootSuite](https://hootsuite.com/) account to use Hootlet
 {: .notice}
+
 
 Click the Title to go to the post!
