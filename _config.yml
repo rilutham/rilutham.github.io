@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Jekyll configuration
 
-permalink:   /:year/:month/:day/:title/
+permalink:   /:year/:month/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
