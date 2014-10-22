@@ -8,13 +8,16 @@ excerpt: "A few simple steps to install Telegram on Fedora 20."
 comments: true
 ---
 
-I can't says anything more about Telegram, that was absolutely amazing. It is a secure, fast, private, and powerful messenger. Moreover, it can be accessed from multiple devices (Mobile, Desktop, and Web), the thing that makes me adore it. I decided to install it on my Fedora 20 machine and only requires a few simple steps.
+I can't says anything more about [Telegram](https://telegram.org/), it was absolutely amazing. It is a secure, fast, private, and powerful messenger. Moreover, it can be accessed from multiple devices (Mobile, Desktop, and Web), the thing that makes me adore it. I decided to install it on my Fedora 20 machine and only requires a few simple steps.
 
 * Download Telegram for Linux [here](https://tdesktop.com/) (32 bit or 64 bit depends on your machine).
 * Extract file to `/opt` directory.
 
 {% highlight bash %}
 $ sudo tar xvf tsetup.0.6.4.tar.xz -C /opt
+Telegram/
+Telegram/Updater
+Telegram/Telegram
 {% endhighlight %}
 
 ### Create executable file
@@ -22,6 +25,8 @@ $ sudo tar xvf tsetup.0.6.4.tar.xz -C /opt
 {% highlight bash %}
 $ sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
 {% endhighlight %}
+
+Now, you can execute `telegram` on your favorite shell/ terminal.
 
 ### Create menu shortcut
 
@@ -34,16 +39,20 @@ $ sudo wget https://telegram.org/img/t_logo.png -O /opt/Telegram/icon.png
 * Add the following script to `/usr/share/applications/telegram.desktop` file.
 
 {% highlight bash %}
+$ sudo nano /usr/share/applications/telegram.desktop
+
 [Desktop Entry]
 Version=0.6.4
 Name=Telegram
 GenericName=Telegram
-Comment=Telegram
+Comment=Private and Secure Messenger
 Exec=telegram
 Icon=/opt/Telegram/icon.png
 Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Network;WebBrowser;
-Keywords=web;chat;internet;
+Keywords=chat;messenger;internet;
 {% endhighlight %}
+
+Check Application Menu > Internet > Telegram , find your friend and start private and secure conversation.
