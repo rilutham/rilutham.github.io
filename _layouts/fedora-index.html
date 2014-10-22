@@ -20,7 +20,7 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for category in site.categories.fedora %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ category.url }}">{{ category.title }}</a></li>
+      <li><span>{{ category.date | date_to_string }}</span> &raquo; <a href="{{ category.url }}">{{ category.title }}</a></li>
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->
