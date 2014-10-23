@@ -12,6 +12,9 @@ I can't says anything more about [Telegram](https://telegram.org/), it was absol
 
 [^1]: <https://www.techinasia.com/10-best-secure-messaging-apps>
 
+This instruction works well on all GNU/Linux distributions.
+{: .notice}
+
 * Download Telegram for Linux [here](https://tdesktop.com/) (32 bit or 64 bit depends on your machine).
 * Extract file to `/opt` directory.
 
