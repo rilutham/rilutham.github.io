@@ -15,11 +15,6 @@ I can't says anything more about [Telegram](https://telegram.org/), it was absol
 This instruction works well on all GNU/Linux distributions.
 {: .notice}
 
-<figure>
-	<img src="/images/posts/telegram-on-fedora-20.jpg" alt="Telegram on Fedora 20">
-	<figcaption>Telegram on Fedora 20.</figcaption>
-</figure>
-
 * Download Telegram for Linux [here](https://tdesktop.com/) (32 bit or 64 bit depends on your machine).
 * Extract file to `/opt` directory.
 
@@ -66,3 +61,8 @@ Keywords=chat;messenger;internet;
 {% endhighlight %}
 
 Check Application Menu > Internet > Telegram , find your friend and start private and secure conversation.
+
+<figure>
+	<img src="/images/posts/telegram-on-fedora-20.jpg" alt="Telegram on Fedora 20">
+	<figcaption>Telegram on Fedora 20.</figcaption>
+</figure>
