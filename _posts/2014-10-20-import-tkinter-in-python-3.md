@@ -41,9 +41,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> tkinter._test()
 {% endhighlight %}
 
-<figure class="half">
-    <a href="/images/posts/import-tkinter-on-python-3.jpg"><img src="/images/posts/import-tkinter-on-python-3.jpg"></a> 
-</figure>
-
 If this works, it should pop up a small window with two buttons (**Click me!** and **QUIT** buttons) and you're all set. Congratulations!
 
+<figure>
+    <img src="/images/posts/import-tkinter-on-python-3.jpg" alt="Import tkinter on Python 3">
+</figure>
