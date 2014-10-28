@@ -41,7 +41,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> tkinter._test()
 {% endhighlight %}
 
+![tkinter test on python3]({{ site.url }}/images/posts/import-tkinter-on-python-3.jpg)
+{: .image-pull-right}
+
 If this works, it should pop up a small window with two buttons (**Click me!** and **QUIT** buttons) and you're all set. Congratulations!
 
-![tkinter test on python3]({{ site.url }}/images/import-tkinter-on-python-3.jpg)
-{: .image-pull-right}
