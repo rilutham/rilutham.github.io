@@ -1,0 +1,45 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="post-index">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <div id="index">
+    <h1>{{ page.title }}</h1>
+      <i>Once upon a time...</i>
+      <p>
+        <div class="mxgraph" style="position:relative;overflow:hidden;width:600px;height:1024px;"><div style="width:1px;height:1px;overflow:hidden;">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</div></div>
+      </p>
+      <br>
+        <i>To be continued...</i>
+
+  </div><!-- /#index -->
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+    <h4><small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
+  </div>
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+<script src="https://www.draw.io/embed.js?s=flowchart"></script>
+</body>
+
+</html>
