@@ -4,7 +4,7 @@ title:  How to Invite to Google Inbox
 date:   2014-11-7 12:40
 categories: internet, google, mail
 tags: [inbox, inbox by gmail, gmail, google, how to invite to inbox, invite to inbox]
-excerpt: "Invite your friends to Inbox by Gmail"
+excerpt: "Invite your friends to Inbox by Gmail."
 comments: true
 image:
   feature: posts/invite-to-inbox-by-gmail.png
@@ -29,7 +29,7 @@ Inbox is available on Android, Apple's iOS, and on the Web - but only in Google'
 	<img src="/images/posts/invite-to-google-inbox.png" alt="How to invite to Inbox">
 </figure>
 
-* and... invitation successfully transmitted.
+* And ... an invitation successfully transmitted.
 
 BTW, i have 1 invitation left. The first commenter will get an invitation from me.
 {: .notice}
