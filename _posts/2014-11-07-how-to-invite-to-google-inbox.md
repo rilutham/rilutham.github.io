@@ -31,5 +31,5 @@ Inbox is available on Android, Apple's iOS, and on the Web - but only in Google'
 
 * And ... an invitation successfully transmitted.
 
-BTW, i have 2 invitation left. The first and second commenter will get an invitation from me.
+UPDATE: I have 5 invitation left, please leave a comment below if you wish to receive an invitation.
 {: .notice}
