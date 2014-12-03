@@ -2,7 +2,7 @@
 layout: post
 title:  How to Invite to Google Inbox
 date:   2014-11-7 12:40
-categories: internet, google, mail
+categories: internet google mail
 tags: [inbox, inbox by gmail, gmail, google, how to invite to inbox, invite to inbox]
 excerpt: "Invite your friends to Inbox by Gmail."
 comments: true

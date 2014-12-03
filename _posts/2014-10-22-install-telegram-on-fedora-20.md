@@ -2,7 +2,7 @@
 layout: post
 title:  Install Telegram on Fedora 20
 date:   2014-10-22 12:44
-categories: messenger, tool, fedora
+categories: messenger tool fedora
 tags: [telegram, messenger, secure, private, fedora]
 excerpt: "A few simple steps to install Telegram on Fedora 20."
 comments: true

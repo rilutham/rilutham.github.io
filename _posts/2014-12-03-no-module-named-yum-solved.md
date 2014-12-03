@@ -2,7 +2,7 @@
 layout: post
 title:  Yum Problem - No module named yum
 date:   2014-12-3 18:52
-categories: fedora, package, python 
+categories: fedora package python 
 tags: [python, django, yum, urlgrabber, python-urlgrabber, rpm]
 excerpt: "Solving problem importing one of the Python modules required to run yum."
 comments: true
