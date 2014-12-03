@@ -18,3 +18,7 @@ comments: true
 
 ### Miscellaneous
 * [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
+
+### Ebook Repository
+* [Online Programming Books](http://www.onlineprogrammingbooks.com/ruby/)
+* [Free Tech Books](http://www.freetechbooks.com/ruby-f49.html)
