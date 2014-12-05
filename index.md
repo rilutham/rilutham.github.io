@@ -1,5 +1,5 @@
 ---
 layout: home
-excerpt: "A blog to share everything about what I learned in software technology. Software engineering, database technology, GNU/Linux and other awesome things."
+excerpt: "A problem-solving-blog in software engineering, database, GNU/Linux, web development and other awesome things."
 tags: []
 ---
