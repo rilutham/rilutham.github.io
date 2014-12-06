@@ -70,21 +70,27 @@ window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.ge
       <div class="article-wrap">
         <span itemprop="articlebody">{{ content }} </span>
         <p>
+          <!-- Share post to social media -->
+          <div style="display:inline-block;vertical-align:baseline">
+            <small><strong>Your turn to share: </strong></small>
+          </div>
+
+          <!-- Facebook Like Widget -->
+          <div style="display:inline-block;vertical-align:baseline" class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+
           <!-- Tweet button -->
-          <div style="display:inline-block;vertical-align:top">
+          <div style="display:inline-block;vertical-align:middle">
           <a class="twitter-share-button"
+               data-text="{{ page.title }}"
                data-related="rilutham"
           >
           Tweet
           </a>
           </div>
-
-          <!-- Facebook Like Widget -->
-          <div style="display:inline-block;vertical-align:top" class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-
-          
         </p>
+
         <hr />
+        
         <footer role="contentinfo">
           <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.
         </footer>
