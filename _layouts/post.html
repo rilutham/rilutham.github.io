@@ -15,13 +15,21 @@
 <body class="post">
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+
+// Facebook Like
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+
+// Tweet button
+window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+
+</script>
 
 
 {% include _browser-upgrade.html %}
@@ -62,8 +70,19 @@
       <div class="article-wrap">
         <span itemprop="articlebody">{{ content }} </span>
         <p>
+          <!-- Tweet button -->
+          <div style="display:inline-block;vertical-align:top">
+          <a class="twitter-share-button"
+               data-related="rilutham"
+          >
+          Tweet
+          </a>
+          </div>
+
           <!-- Facebook Like Widget -->
-          <div class="fb-like" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+          <div style="display:inline-block;vertical-align:top" class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+
+          
         </p>
         <hr />
         <footer role="contentinfo">
