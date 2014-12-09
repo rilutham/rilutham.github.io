@@ -1,0 +1,127 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="post-index">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <div id="index">
+    <h1>{{ page.title }}</h1>
+
+      <h3>Current running system</h3>
+        <table border="1">
+          <tr>
+            <th>Operating System</th>
+            <th>Timescale</th>
+            <th>Amount of time</th>
+            <th>Memory</th>
+            <th>Swap</th>
+            <th>Arch</th>
+          </tr>
+          <tr>
+            <td>Fedora 21</td>
+            <td>Dec 2014</td>
+            <td>-</td>
+            <td>4 GB</td>
+            <td>8 GB</td>
+            <td>x86_64</td>
+          </tr>
+        </table>      
+
+      <h3>Previous systems</h3>
+      <table border="1">
+        <tr>
+          <th>Operating System</th>
+          <th>Timescale</th>
+          <th>Amount of time</th>
+          <th>Memory</th>
+          <th>Swap</th>
+          <th>Arch</th>
+        </tr>
+        <tr>
+          <td>Windows 7</td>
+          <td>July 25, 2011 - Oct 26, 2012</td>
+          <td>1 year 3 months</td>
+          <td>2 GB</td>
+          <td>-</td>
+          <td>i686</td>
+        </tr>
+        <tr>
+          <td>Windows 8</td>
+          <td>Oct 28, 2012 - Dec 31, 2012</td>
+          <td>2 months</td>
+          <td>4 GB</td>
+          <td>-</td>
+          <td>x86_64</td>
+        </tr>
+        <tr>
+          <td>Ubuntu 12.04 LTS</td>
+          <td>Oct 28, 2012 - Dec 31, 2012</td>
+          <td>2 months</td>
+          <td>4 GB</td>
+          <td>2 GB</td>
+          <td>i686</td>
+        </tr>
+        <tr>
+          <td>Fedora 17</td>
+          <td>Jan 2, 2013 - Feb 2013</td>
+          <td>2 months</td>
+          <td>4 GB</td>
+          <td>8 GB</td>
+          <td>i686</td>
+        </tr>
+        <tr>
+          <td>Linux Mint 14</td>
+          <td>Feb 2013 - Mar 2013</td>
+          <td>1 months</td>
+          <td>512 MB</td>
+          <td>1 GB</td>
+          <td>i686</td>
+        </tr>
+        <tr>
+          <td>Fedora 18</td>
+          <td>Mar 4, 2013 - Apr 2014</td>
+          <td>1 year 2 months</td>
+          <td>4 GB</td>
+          <td>8 GB</td>
+          <td>x86_64</td>
+        </tr>
+        <tr>
+          <td>Fedora 20</td>
+          <td>Apr 18, 2014 - Dec 2014</td>
+          <td>8 months</td>
+          <td>4 GB</td>
+          <td>8 GB</td>
+          <td>x86_64</td>
+        </tr>
+      </table>
+
+  </div><!-- /#index -->
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+    <h4><small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
+  </div>
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+<script src="https://www.draw.io/embed.js?s=flowchart"></script>
+</body>
+
+</html>
