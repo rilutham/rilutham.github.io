@@ -3,8 +3,8 @@ layout: post
 title:  Install Apache - PHP - Maria DB on Fedora 21
 date:   2014-12-20 21:00
 categories: fedora apache python maria mysql 
-tags: []
-excerpt: "Guide in installing web server on Fedora 21."
+tags: [apache, php, mariadb, web-server, fedora, phpmyadmin]
+excerpt: "A guide in installing web server on Fedora 21."
 comments: true
 ---
 
