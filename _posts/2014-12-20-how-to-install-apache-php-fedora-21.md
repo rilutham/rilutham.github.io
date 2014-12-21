@@ -27,7 +27,7 @@ $ sudo systemctl start httpd.service
 $ sudo systemctl enable httpd.service
 {% endhighlight %}
 
-Go to `localhost` in your favorite page to check whether the Apache is run or not. To make the Fedora Test Page go away, commenting out the lines in `/etc/httpd/conf.d/welcome.conf`. Apache configuration file is in `/etc/httpd/conf/httpd.conf`.
+Go to `localhost` in your favorite browser to check whether the Apache is run or not. To make the Fedora Test Page go away, commenting out the lines in `/etc/httpd/conf.d/welcome.conf`. Apache configuration file is in `/etc/httpd/conf/httpd.conf`.
 
 ## PHP
 
