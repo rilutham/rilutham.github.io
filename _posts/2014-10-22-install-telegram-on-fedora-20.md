@@ -19,7 +19,7 @@ This instruction works well on all GNU/Linux distributions.
 * Extract file to `/opt` directory.
 
 {% highlight bash %}
-$ sudo tar xvf tsetup.0.6.4.tar.xz -C /opt
+$ sudo tar xvf tsetup.0.7.2.tar.xz -C /opt
 Telegram/
 Telegram/Updater
 Telegram/Telegram
