@@ -8,7 +8,7 @@ excerpt: "A few simple steps to install Telegram on Fedora 20."
 comments: true
 ---
 
-I can't says anything more about [Telegram](https://desktop.telegram.org/), it was absolutely amazing. It is a secure, fast, private, and powerful messenger [^1]. Moreover, it can be accessed from multiple devices (Mobile, Desktop, and Web), the thing that makes me adore it. I decided to install it on my Fedora 20 machine and only requires a few simple steps.
+I can't says anything more about [Telegram](https://telegram.org/), it was absolutely amazing. It is a secure, fast, private, and powerful messenger [^1]. Moreover, it can be accessed from multiple devices (Mobile, Desktop, and Web), the thing that makes me adore it. I decided to install it on my Fedora 20 machine and only requires a few simple steps.
 
 [^1]: <https://www.techinasia.com/10-best-secure-messaging-apps>
 
