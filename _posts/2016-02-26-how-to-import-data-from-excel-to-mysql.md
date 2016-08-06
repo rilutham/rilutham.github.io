@@ -28,7 +28,7 @@ Suppose we have a table called `invitees` in `event_2016` database. The `invitee
 
 ## Processing Data in Excel
 
-First thing first, we need to convert invitees data in Excel file ( \*.xlsx, \*.xls, OR \*.ods) to text file (\*.csv OR \*.tsv). In this example, we will exporting it to \*.csv file. So that it looks like this:
+First thing first, we need to convert invitees data in Excel file ( \*.xlsx, \*.xls, OR \*.ods) to text file (\*.csv OR \*.tsv). In this example, data converted to \*.csv file. So that it looks like this:
 
 {% highlight bash %}
 name, email, job_title, company
@@ -38,9 +38,9 @@ Uthman ibn Affan,uthman@calipha.te,3rd caliph,The Caliphate Inc.
 Ali ibn Abi-Talib,ali@calipha.te,4th caliph,The Caliphate Inc.
 {% endhighlight %}
 
-## Insert Data to MariaDB/ MySQL Table
+## Import Data to MySQL/ MariaDB
 
-* Export the \*.csv data to `invitees` table using `LOAD DATA INFILE` command:
+* Import the \*.csv data to `invitees` table using `LOAD DATA INFILE` command:
 
 {% highlight MySQL %}
 > LOAD DATA INFILE '/home/user/invitee.csv'
@@ -59,7 +59,7 @@ Records: 4  Deleted: 0  Skipped: 0  Warnings: 0
 {% highlight MySQL %}
 > SELECT * FROM invitees;
 +----+---------------------+--------------------+-------------+----------------+----------------+
-| id | name                | email              | job_title   | company        | has_registered |
+| id | name                | email              | job\_title   | company        | has\_registered |
 +----+---------------------+--------------------+-------------+----------------+----------------+
 |  1 | Abu Bakr as-Shiddiq |  abu@calipha.te    |  1st caliph |  The Caliphate |              0 |
 |  2 | Umar ibn Al-Khattab |  umar@calipha.te   |  2nd caliph |  The Caliphate |              0 |
