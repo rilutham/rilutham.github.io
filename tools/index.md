@@ -1,5 +1,5 @@
 ---
 layout: tools-page
 title: Tools
-excerpt: "A set of my favorite software."
+excerpt: "a set of tools that I used in daily basis"
 ---
