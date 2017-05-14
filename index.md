@@ -1,5 +1,5 @@
 ---
 layout: home
-excerpt: "A blog in software engineering, web development, GNU/Linux stuff and another thoughts - Riky Lutfi Hamzah"
-tags: [Riky Lutfi Hamzah, python engineer, data scientist]
+excerpt: "Riky Lutfi Hamzah - Software engineer who's curious about data science. I talk some ideas from @rilutham."
+tags: [Riky Lutfi Hamzah, software engineer, data scientist]
 ---
